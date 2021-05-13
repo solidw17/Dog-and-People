@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Caes.cs" />
+    <Compile Include="Models\CaesDonos.cs" />
     <Compile Include="Models\Dono.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
