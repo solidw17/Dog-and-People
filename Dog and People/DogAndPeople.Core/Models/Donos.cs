@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace DogAndPeople.Core.Models
 {
-    public class Dono
+    public class Donos : BaseEntity
     {
-        public int Id { get; set; }
         [Required]
         [DisplayName("Nome do dono")]
         public string Name { get; set; }

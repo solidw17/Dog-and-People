@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace DogAndPeople.Core.Models
 {
-    public class CaesDonos : BaseEntity
+    public abstract class BaseEntity
     {
-        [Required]
-        public int Id_dono { get; set; }
-        [Required]
-        public int Id_cao { get; set; }
+        [Key]
+        public int Id { get; set; }
     }
 }

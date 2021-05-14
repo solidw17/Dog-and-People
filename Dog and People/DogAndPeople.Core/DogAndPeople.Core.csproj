@@ -42,10 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Caes.cs" />
     <Compile Include="Models\CaesDonos.cs" />
-    <Compile Include="Models\Dono.cs" />
+    <Compile Include="Models\Donos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\CaesDonosViewModel.cs" />
+    <Compile Include="ViewModels\IndexCaesDonosViewModel.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
